@@ -9,8 +9,7 @@ Web shop built in HTML + CSS + JS for frontend and Node.js + Express.js for back
 - Express.js routing
 - EJS views 
 - Cookie based session implementation
-
-## Installation and review
+## Installation
 1. Clone the repository: git clone https://github.com/IvanDzanija/WebShop.git
 2. Install the required dependencies: npm install
 3. In terminal run: node server.js
