@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webshop</title>
+    <link rel="stylesheet" href="../public/styles/index_style.css"> 
+</head>
+<body>
+    <script type="module" src="../public/scripts/shopping.js"></script>
+    <script type="module" src="../public/scripts/categories.js"></script> 
+    <%- include('partials/header') %>
+
+<main>
+    <div class="featured-section">
+        <div class="featured-text">Welcome aboard! Enjoy the finest selection of hats online! </div>
+        <img class="featured-image" src="../public/images/banner.jpg" alt="Featured Image">
+    </div>
+    <div class = "product-display">
+        <div class="categories">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="#Fedoras">Fedora hats</a></li>
+                <li><a href="#Panamas">Panama hats</a></li>
+                <li><a href="#Derbies">Derby hats</a></li>
+                <li><a href="#Tops">Top hats</a></li>
+                <li><a href="#Straws">Straw hats</a></li>
+                <li><a href="#Cowboys">Cowboy hats</a></li>
+                <li><a href="#Baseballs">Baseball hats</a></li>
+                <li><a href="#Buckets">Bucket hats</a></li>
+                <li><a href="#Trilbies">Trilby hats</a></li>
+                <li><a href="#Sombreros">Sombrero hats</a></li>
+            </ul>
+        </div>
+        <div class="products">
+            <div id="Fedoras" class="category">
+                <div class="category-header">
+                    <h2>Selection of Fedora hats</h2>
+                </div>
+                <div class="product-list">
+                    <div class="product" data-id="beige-fedora">
+                        <img src="../public/images/beige_fedora.jpg" alt="Beige Fedora">
+                        <div class="product-info">Beige Fedora Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="black-fedora">
+                        <img src="../public/images/black_fedora.png" alt="Black Fedora">
+                        <div class="product-info">Black Fedora Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="red-fedora">
+                        <img src="../public/images/red_fedora.png" alt="Red Fedora">
+                        <div class="product-info">Red Fedora Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="green-fedora">
+                        <img src="../public/images/green_fedora.png" alt="Green Fedora">
+                        <div class="product-info">Green Fedora Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="pink-fedora">
+                        <img src="../public/images/pink_fedora.png" alt="Pink Fedora">
+                        <div class="product-info">Pink Fedora Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                </div>
+            </div>
+            <div id="Panamas" class="category">
+                <div class="category-header">
+                    <h2>Selection of Panama hats</h2>
+                </div>
+                <div class="product-list">
+                    <div class="product" data-id="pink-panama">
+                        <img src="../public/images/pink_panama.jpg" alt="Pink Panama">
+                        <div class="product-info">Pink Panama Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="blue-panama">
+                        <img src="../public/images/Blue_panama.jpg" alt="Blue Panama">
+                        <div class="product-info">Blue Panama Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="green-panama">
+                        <img src="../public/images/Green_panama.jpg" alt="Green Panama">
+                        <div class="product-info">Green Panama Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="sand-panama">
+                        <img src="../public/images/sand_panama.png" alt="Sand Panama">
+                        <div class="product-info">Sand Panama Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="black-panama">
+                        <img src="../public/images/black_panama.jpg" alt="Black Panama">
+                        <div class="product-info">Black Panama Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                </div>
+            </div>
+            <div id="Derbies" class="category">
+                <div class="category-header">
+                    <h2>Selection of Derby hats</h2>
+                </div>
+                <div class="product-list">
+                    <div class="product" data-id="black-derby">
+                        <img src="../public/images/black_derby.jpg" alt="Black Derby">
+                        <div class="product-info">Black Derby Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="gray-derby">
+                        <img src="../public/images/gray_derby.jpg" alt="Gray Derby">
+                        <div class="product-info">Gray Derby Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="blue-derby">
+                        <img src="../public/images/blue_derby.jpg" alt="Blue Derby">
+                        <div class="product-info">Blue Derby Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="white-derby">
+                        <img src="../public/images/white_derby.jpg" alt="White Derby">
+                        <div class="product-info">White Derby Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="pink-derby">
+                        <img src="../public/images/pink_derby.jpg" alt="Pink Derby">
+                        <div class="product-info">Pink Derby Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                </div>
+            </div>
+            <div id="Tops" class="category">
+                <div class="category-header">
+                    <h2>Selection of Top hats</h2>
+                </div>
+                <div class="product-list">
+                    <div class="product" data-id="black-top">
+                        <img src="../public/images/black_top.jpg" alt="Black Top">
+                        <div class="product-info">Black Top Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="navy-top">
+                        <img src="../public/images/navy_top.jpg" alt="Navy Top">
+                        <div class="product-info">Navy Top Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="royal-top">
+                        <img src="../public/images/Royal_top.png" alt="Royal Top">
+                        <div class="product-info">Royal Top Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="brown-top">
+                        <img src="../public/images/brown_top.png" alt="Brown Top">
+                        <div class="product-info">Brown Top Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="orange-top">
+                        <img src="../public/images/orange_top.png" alt="Orange Top">
+                        <div class="product-info">Orange Top Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                </div>
+            </div>
+            <div id="Straws" class="category">
+                <div class="category-header">
+                    <h2>Selection of Straw hats</h2>
+                </div>
+                <div class="product-list">
+                    <div class="product" data-id="beige-straw">
+                        <img src="../public/images/beige_straw.jpg" alt="Beige Straw">
+                        <div class="product-info">Beige Straw Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="brown-straw">
+                        <img src="../public/images/Brown_straw.jpg" alt="Brown Straw">
+                        <div class="product-info">Brown Straw Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="gray-straw">
+                        <img src="../public/images/Gray_straw.jpg" alt="Gray Straw">
+                        <div class="product-info">Gray Straw Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="vintage-straw">
+                        <img src="../public/images/Vintage_straw.jpg" alt="Vintage Straw">
+                        <div class="product-info">Vintage Straw Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="white-straw">
+                        <img src="../public/images/White_straw.jpg" alt="White Straw">
+                        <div class="product-info">White Straw Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                </div>
+            </div>
+            <div id="Cowboys" class="category">
+                <div class="category-header">
+                    <h2>Selection of Cowboy hats</h2>
+                </div>
+                <div class="product-list">
+                    <div class="product" data-id="beige-cowboy">
+                        <img src="../public/images/beige_Cowboy.png" alt="Beige Cowboy">
+                        <div class="product-info">Beige Cowboy Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="brown-cowboy">
+                        <img src="../public/images/brown_Cowboy.png" alt="Brown Cowboy">
+                        <div class="product-info">Brown Cowboy Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="gray-cowboy">
+                        <img src="../public/images/Gray_Cowboy.png" alt="Gray Cowboy">
+                        <div class="product-info">Gray Cowboy Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="red-cowboy">
+                        <img src="../public/images/Red_Cowboy.png" alt="Red Cowboy">
+                        <div class="product-info">Red Cowboy Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="black-cowboy">
+                        <img src="../public/images/black_Cowboy.png" alt="Black Cowboy">
+                        <div class="product-info">Black Cowboy Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                </div>
+            </div>
+            <div id="Baseballs" class="category">
+                <div class="category-header">
+                    <h2>Selection of Baseball hats</h2>
+                </div>
+                <div class="product-list">
+                    <div class="product" data-id="green-baseball">
+                        <img src="../public/images/Green_Baseball.png" alt="Green Baseball">
+                        <div class="product-info">Green Baseball Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="pink-baseball">
+                        <img src="../public/images/Pink_Baseball.png" alt="Pink Baseball">
+                        <div class="product-info">Pink Baseball Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="gray-baseball">
+                        <img src="../public/images/Gray_Baseball.png" alt="Gray Baseball">
+                        <div class="product-info">Gray Baseball Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="red-baseball">
+                        <img src="../public/images/Red_Baseball.png" alt="Red Baseball">
+                        <div class="product-info">Red Baseball Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="black-baseball">
+                        <img src="../public/images/black_Baseball.png" alt="black Baseball">
+                        <div class="product-info">Black Baseball Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                </div>
+            </div>
+            <div id="Buckets" class="category">
+                <div class="category-header">
+                    <h2>Selection of Bucket hats</h2>
+                </div>
+                <div class="product-list">
+                    <div class="product" data-id="blue-bucket">
+                        <img src="../public/images/Blue_Bucket.jpg" alt="Blue Bucket">
+                        <div class="product-info">Blue Bucket Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="beige-bucket">
+                        <img src="../public/images/Beige_Bucket.jpg" alt="Beige Bucket">
+                        <div class="product-info">Beige Bucket Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="gray-bucket">
+                        <img src="../public/images/Gray_Bucket.jpg" alt="Gray Bucket">
+                        <div class="product-info">Gray Bucket Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="red-bucket">
+                        <img src="../public/images/Red_Bucket.jpg" alt="Red Bucket">
+                        <div class="product-info">Red Bucket Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="black-bucket">
+                        <img src="../public/images/black_Bucket.jpg" alt="black Bucket">
+                        <div class="product-info">Black Bucket Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                </div>
+            </div>
+            <div id="Trilbies" class="category">
+                <div class="category-header">
+                    <h2>Selection of Trilby hats</h2>
+                </div>
+                <div class="product-list">
+                    <div class="product" data-id="brown-trilby">
+                        <img src="../public/images/Brown_Trilby.webp" alt="Brown Trilby">
+                        <div class="product-info">Brown Trilby Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="white-trilby">
+                        <img src="../public/images/White_Trilby.jpg" alt="White Trilby">
+                        <div class="product-info">White Trilby Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="gray-trilby">
+                        <img src="../public/images/Gray_Trilby.png" alt="Gray Trilby">
+                        <div class="product-info">Gray Trilby Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="red-trilby">
+                        <img src="../public/images/Red_Trilby.png" alt="Red Trilby">
+                        <div class="product-info">Red Trilby Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                    <div class="product" data-id="black-trilby">
+                        <img src="../public/images/black_Trilby.png" alt="black Trilby">
+                        <div class="product-info">Black Trilby Hat</div>
+                        <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                    </div>
+                </div>
+            </div>
+            <div id="Sombreros" class="category">
+                <div class="category-header">
+                    <h2>Selection of Sombrero hats</h2>
+                </div>
+                <div class="product-list">
+                <div class="product" data-id="green-sombrero">
+                    <img src="../public/images/Green_Sombrero.png" alt="Green Sombrero">
+                    <div class="product-info">Green Sombrero Hat</div>
+                    <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                </div>
+                <div class="product" data-id="white-sombrero">
+                    <img src="../public/images/White_Sombrero.png" alt="White Sombrero">
+                    <div class="product-info">White Sombrero Hat</div>
+                    <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                </div>
+                <div class="product" data-id="yellow-sombrero">
+                    <img src="../public/images/Yellow_Sombrero.png" alt="Yellow Sombrero">
+                    <div class="product-info">Yellow Sombrero Hat</div>
+                    <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                </div>
+                <div class="product" data-id="red-sombrero">
+                    <img src="../public/images/Red_Sombrero.png" alt="Red Sombrero">
+                    <div class="product-info">Red Sombrero Hat</div>
+                    <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                </div>
+                <div class="product" data-id="black-sombrero">
+                    <img src="../public/images/black_Sombrero.png" alt="Black Sombrero">
+                    <div class="product-info">Black Sombrero Hat</div>
+                    <img id = "cart-icon"  src="../public/images/cart_icon.png" alt="Cart Icon">
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="contact-info"> Contact Information </div>
+    <div class="newsletter"> Newsletter </div>
+    <div class="subscribe" > Subscribe </div>
+</footer>
+
+</body>
+</html>
